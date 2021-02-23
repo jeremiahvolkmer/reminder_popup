@@ -10,6 +10,6 @@ from gi.repository import Gtk
 text = "Strech for 15 minutes"
 
 win = mw.MyWindow(text)
-win.connect("destroy", Gtk.main_quit) # X icon termiates program
+win.connect("destroy", Gtk.main_quit) # 'X' icon termiates program
 win.show_all()
 Gtk.main()
